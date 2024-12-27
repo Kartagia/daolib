@@ -1,0 +1,34 @@
+{
+  "name": "@kartagia/daolib",
+  "version": "1.0.0",
+  "description": "The DAO library for Javascript",
+  "main": "src/main/index.mjs",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "mocha --harmony src/test/javascript",
+    "build": "webpack --config src/main/javascript/webpack.config.js"
+  },
+  "keywords": [
+    "dao",
+    "javascript"
+  ],
+  "type": "commonjs",
+  "private": true,
+  "author": {
+    "name": "Antti Kautiainen",
+    "email": "antti@kautiainen.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^5.1.2",
+    "chai-as-promised": "^8.0.1",
+    "lodash": "^4.17.21",
+    "mocha": "^11.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
