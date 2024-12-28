@@ -8,6 +8,8 @@
   },
   "scripts": {
     "test": "mocha --harmony src/test/javascript",
+    "compile": "webpack --config src/main/javascript/webpack.config.dev.js",
+    "watch": "webpack --watch --config src/main/javascript/webpack.config.dev.js",
     "build": "webpack --config src/main/javascript/webpack.config.js"
   },
   "keywords": [
