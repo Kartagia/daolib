@@ -4,8 +4,6 @@
  * @module dao
  */
 
-import { entry } from "./webpack.config";
-
 /**
  * An exception is an error with optional cause type.
  * @template [CAUSE=any] The cause type.
