@@ -5,6 +5,6 @@ module.exports = {
     entry: "./src/main/javascript/index.mjs",
     output: {
         filename: "daolib.production.js",
-        path: path.resolve(__dirname, "dist", "javascript")
+        path: path.resolve(__dirname, "..", "..", "dist", "javascript")
     }
 }
