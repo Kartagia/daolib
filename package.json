@@ -1,6 +1,6 @@
 {
   "name": "@kartagia/daolib",
-  "version": "1.0.0",
+  "version": "1.0.1rc",
   "description": "The DAO library for Javascript",
   "main": "src/main/index.mjs",
   "directories": {
